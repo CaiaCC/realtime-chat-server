@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:CaiaCC/realtime-chat-server.git",
   "author": "Caia Chuang <caiachuang@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
