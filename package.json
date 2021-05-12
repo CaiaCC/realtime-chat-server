@@ -1,7 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
   "repository": "git@github.com:CaiaCC/realtime-chat-server.git",
   "author": "Caia Chuang <caiachuang@gmail.com>",
   "license": "MIT",
