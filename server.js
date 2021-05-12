@@ -1,4 +1,4 @@
-import {GraphQLServer} from 'graphql-yoga';
+import {GraphQLServer } from 'graphql-yoga';
 
 const messages = [];
 
@@ -14,9 +14,9 @@ const typeDefs = `
     }
 
     type Mutation {
-        postMessage(user: Sting!, content: String!): ID!
+        postMessage(user: String!, content: String!): ID!
     }
-`
+`;
 
 const resolvers = {
     Query: {
